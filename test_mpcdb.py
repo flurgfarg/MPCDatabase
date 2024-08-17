@@ -9,7 +9,7 @@ print "The number of NEOs and PHAs now is",len(results)
 results=mysqlSelect(selection="Name,a",condition="order by a desc limit 10")
 print results
 
-print "This is the information about (347940) Jorgezuluaga:"
+print "This is the information about (90377) Sedna:"
 results=mysqlSelect(condition="where Name like '%zuluaga%'")
 
 for key in results[0].keys():
